@@ -177,3 +177,43 @@ section h1 {
 .display-block {
   display: block;
 }
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+  /* mobile */
+  #page-content {
+    overflow-x: hidden;
+  }
+
+  .intro-section__tagline {
+    width: inherit;
+    margin: 0;
+    text-align: center;
+  }
+
+  .features-section_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .demo-section .wrapper-padding {
+    padding: 50px;
+  }
+
+  .demo-section-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .demo-section__text {
+    width: inherit;
+    margin: auto;
+  }
+
+  .demo-section__video {
+    height: 240px;
+  }
+}
