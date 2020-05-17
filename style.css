@@ -135,19 +135,23 @@ section h1 {
 /* Margins, Padding */
 
 .margin-right-sm {
-  margin-right: 4px;
+  margin-right: 8px;
 }
 
 .margin-left-sm {
-  margin-left: 4px;
+  margin-left: 8px;
 }
 
 .margin-right-md {
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 .margin-left-md {
-  margin-left: 16px;
+  margin-left: 24px;
+}
+
+.margin-top-md {
+  margin-top: 24px;
 }
 
 .margin-right-lg {
@@ -162,28 +166,12 @@ section h1 {
   margin-bottom: 48px;
 }
 
-.margin-top-lg {
-  margin-top: 36px;
-}
-
-.margin-top-md {
-  margin-top: 24px;
-}
-
 .margin-auto {
   margin: auto;
 }
 
-.position-absolute {
-  position: absolute;
-}
-
 .text-align-center {
   text-align: center;
-}
-
-.display-inline-block {
-  display: inline-block;
 }
 
 .display-block {
