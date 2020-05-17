@@ -1,0 +1,191 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  line-height: 32px;
+  padding: 20px 30px;
+}
+
+.top-section {
+  background: url("images/3411355-1.jpg");
+  background-position: center;
+  color: white;
+}
+
+.wrapper-padding {
+  padding: 50px 100px;
+}
+
+.btn-right {
+  float: right;
+}
+
+button:hover {
+  background-color: grey;
+  border-color: grey;
+  color: white;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  font: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 24px;
+  border: 1px solid transparent;
+  color: #333;
+  background-color: rgb(0, 191, 255);
+  border-color: rgb(0, 191, 255);
+  border-radius: 4px;
+}
+
+section h1 {
+  font-size: 36px;
+}
+
+.intro-section__agora {
+  font-weight: 500px;
+  font-size: 72px;
+  margin: 150px 0px 400px 0px;
+}
+
+.intro-section__tagline {
+  width: 50%;
+  margin-left: 50px;
+  padding: 50px;
+}
+
+.intro-section__tagline-title {
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+
+.intro-section__tagline-subtext {
+  font-size: 16px;
+  line-height: 1.5em;
+  width: 90%;
+  margin-bottom: 24px;
+}
+
+.features-section {
+  color: black;
+  background-color: white;
+}
+
+.features-section_flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.features-section__card {
+  margin: 24px;
+  max-width: 400px;
+}
+
+.features-section__card__subtext_font {
+  font-size: 16px;
+}
+
+.demo-section {
+  background: url("images/3411355-1.jpg");
+  background-position: bottom;
+  color: white;
+}
+
+.demo-section__text {
+  width: 50%;
+  margin-right: 100px;
+}
+
+.demo-section-display {
+  display: flex;
+  align-items: center;
+}
+
+.demo-section__video {
+  width: 100%;
+}
+
+.try-now-section {
+  background-color: lightgrey;
+}
+
+.footer__wrapper {
+  padding: 50px 100px 50px 100px;
+}
+
+.icon-black {
+  color: black;
+}
+
+/* Margins, Padding */
+
+.margin-right-sm {
+  margin-right: 4px;
+}
+
+.margin-left-sm {
+  margin-left: 4px;
+}
+
+.margin-right-md {
+  margin-right: 16px;
+}
+
+.margin-left-md {
+  margin-left: 16px;
+}
+
+.margin-right-lg {
+  margin-right: 48px;
+}
+
+.margin-left-lg {
+  margin-left: 48px;
+}
+
+.margin-bottom-lg {
+  margin-bottom: 48px;
+}
+
+.margin-top-lg {
+  margin-top: 36px;
+}
+
+.margin-top-md {
+  margin-top: 24px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.display-block {
+  display: block;
+}
