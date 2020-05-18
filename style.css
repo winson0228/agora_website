@@ -9,7 +9,7 @@ body {
   justify-content: space-between;
   font-size: 25px;
   line-height: 32px;
-  padding: 20px 30px;
+  padding: 20px 50px;
 }
 
 .top-section {
@@ -57,20 +57,17 @@ section h1 {
 }
 
 .intro-section__agora {
-  font-weight: 500px;
   font-size: 72px;
   margin: 150px 0px 400px 0px;
 }
 
 .intro-section__tagline {
   width: 50%;
-  margin-left: 50px;
-  padding: 50px;
+  padding: 50px 100px;
 }
 
 .intro-section__tagline-title {
   font-size: 36px;
-  margin-bottom: 36px;
 }
 
 .intro-section__tagline-subtext {
@@ -124,8 +121,8 @@ section h1 {
   background-color: lightgrey;
 }
 
-.footer__wrapper {
-  padding: 50px 100px 50px 100px;
+.footer {
+  background-color: white;
 }
 
 .icon-black {
@@ -162,12 +159,20 @@ section h1 {
   margin-left: 48px;
 }
 
+.margin-bottom-md {
+  margin-bottom: 24px;
+}
+
 .margin-bottom-lg {
   margin-bottom: 48px;
 }
 
 .margin-auto {
   margin: auto;
+}
+
+.padding-bottom-lg {
+  padding-bottom: 48px;
 }
 
 .text-align-center {
@@ -183,6 +188,10 @@ section h1 {
   /* mobile */
   #page-content {
     overflow-x: hidden;
+  }
+
+  .header {
+    padding: 20px;
   }
 
   .intro-section__tagline {
