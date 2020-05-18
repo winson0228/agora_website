@@ -198,6 +198,7 @@ section h1 {
     width: inherit;
     margin: 0;
     text-align: center;
+    padding: 50px;
   }
 
   .features-section_flex {
@@ -224,5 +225,9 @@ section h1 {
 
   .demo-section__video {
     height: 240px;
+  }
+
+  .wrapper-padding {
+    padding: 50px;
   }
 }
