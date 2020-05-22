@@ -59,6 +59,8 @@ section h1 {
 .intro-section__agora {
   font-size: 72px;
   margin: 150px 0px 400px 0px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 .intro-section__tagline {

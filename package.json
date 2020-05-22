@@ -1,0 +1,19 @@
+{
+  "name": "agora",
+  "version": "1.0.0",
+  "description": "Agora Landing Page",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://helloagora.ca"
+}
