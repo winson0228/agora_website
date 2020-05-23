@@ -13,7 +13,7 @@ body {
 }
 
 .top-section {
-  background: url("images/3411355-1.jpg");
+  background: url("images/3411355-2.jpg");
   background-position: center;
   color: white;
 }
@@ -65,7 +65,7 @@ section h1 {
 
 .intro-section__tagline {
   width: 50%;
-  padding: 50px 100px;
+  padding: 50px 100px 150px 100px;
 }
 
 .intro-section__tagline-title {
@@ -100,7 +100,7 @@ section h1 {
 }
 
 .demo-section {
-  background: url("images/3411355-1.jpg");
+  background: url("images/3411355-2.jpg");
   background-position: bottom;
   color: white;
 }
